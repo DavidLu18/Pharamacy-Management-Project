@@ -80,7 +80,7 @@ namespace PharmacyManagementProject
         {
             uC_Dashboard1.Show();
             uC_Dashboard1.BringToFront();
-            
+
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -91,7 +91,14 @@ namespace PharmacyManagementProject
         private void Admin_Load(object sender, EventArgs e)
         {
             uC_Dashboard1.Hide();
-           
+            uC_AddUser1.Hide();
+
+        }
+
+        private void addUserButton_Click(object sender, EventArgs e)
+        {
+            uC_AddUser1.Show();
+            uC_AddUser1.BringToFront();
         }
     }
 }

@@ -43,6 +43,7 @@
             toolTip1 = new ToolTip(components);
             pictureBox1 = new PictureBox();
             uC_Dashboard1 = new AdminUC.UC_Dashboard();
+            uC_AddUser1 = new AdminUC.UC_AddUser();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)test1).BeginInit();
             panel2.SuspendLayout();
@@ -131,7 +132,7 @@
             profileButton.Name = "profileButton";
             profileButton.Size = new Size(280, 62);
             profileButton.TabIndex = 5;
-            profileButton.Text = "Profile";
+            profileButton.Text = "Hồ Sơ";
             profileButton.UseVisualStyleBackColor = false;
             profileButton.MouseEnter += profileButton_MouseEnter;
             profileButton.MouseLeave += profileButton_MouseLeave;
@@ -148,7 +149,7 @@
             allUserButton.Name = "allUserButton";
             allUserButton.Size = new Size(281, 62);
             allUserButton.TabIndex = 4;
-            allUserButton.Text = "All User";
+            allUserButton.Text = "Xem User";
             allUserButton.UseVisualStyleBackColor = false;
             allUserButton.MouseEnter += allUserButton_MouseEnter;
             allUserButton.MouseLeave += allUserButton_MouseLeave;
@@ -165,8 +166,9 @@
             addUserButton.Name = "addUserButton";
             addUserButton.Size = new Size(281, 62);
             addUserButton.TabIndex = 3;
-            addUserButton.Text = "Add User";
+            addUserButton.Text = "Thêm User";
             addUserButton.UseVisualStyleBackColor = false;
+            addUserButton.Click += addUserButton_Click;
             addUserButton.MouseEnter += addUserButton_MouseEnter;
             addUserButton.MouseLeave += addUserButton_MouseLeave;
             // 
@@ -217,12 +219,21 @@
             uC_Dashboard1.Size = new Size(1439, 1139);
             uC_Dashboard1.TabIndex = 3;
             // 
+            // uC_AddUser1
+            // 
+            uC_AddUser1.BackColor = Color.FromArgb(253, 250, 217);
+            uC_AddUser1.Location = new Point(403, -3);
+            uC_AddUser1.Name = "uC_AddUser1";
+            uC_AddUser1.Size = new Size(1439, 1139);
+            uC_AddUser1.TabIndex = 4;
+            // 
             // Admin
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(253, 250, 217);
             ClientSize = new Size(1842, 1135);
+            Controls.Add(uC_AddUser1);
             Controls.Add(uC_Dashboard1);
             Controls.Add(pictureBox1);
             Controls.Add(panel1);
@@ -255,5 +266,6 @@
         private RJcontrol.test test1;
         private PictureBox pictureBox1;
         private AdminUC.UC_Dashboard uC_Dashboard1;
+        private AdminUC.UC_AddUser uC_AddUser1;
     }
 }

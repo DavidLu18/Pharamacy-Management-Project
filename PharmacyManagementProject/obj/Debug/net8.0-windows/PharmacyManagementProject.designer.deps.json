@@ -62,6 +62,22 @@
           }
         }
       },
+      "DotNetProjects.WpfToolkit.DataVisualization/6.1.94": {
+        "runtime": {
+          "lib/net6.0-windows7.0/DotNetProjects.DataVisualization.Toolkit.dll": {
+            "assemblyVersion": "6.1.94.0",
+            "fileVersion": "6.1.94.0"
+          }
+        }
+      },
+      "DotNetProjects.WpfToolkit.Input/6.1.94": {
+        "runtime": {
+          "lib/net6.0-windows7.0/DotNetProjects.Input.Toolkit.dll": {
+            "assemblyVersion": "6.1.94.0",
+            "fileVersion": "6.1.94.0"
+          }
+        }
+      },
       "FastReport.Compat/2024.2.20": {
         "dependencies": {
           "Microsoft.CodeAnalysis.CSharp": "4.0.1",
@@ -1248,6 +1264,20 @@
       "sha512": "sha512-PCC1h7YdzpEa02hUToRqgJMwst6fQWI4YJ648wN7Q/LT7/qQ30oGOHo7w0iDHKtyoG5BKekMerneGy9j8xWcpA==",
       "path": "daterange/1.0.2",
       "hashPath": "daterange.1.0.2.nupkg.sha512"
+    },
+    "DotNetProjects.WpfToolkit.DataVisualization/6.1.94": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5xmRUH+/F3zRxcI8b93W9OUvOUKXpcHShj7jGJdpBAgQTNPEeMLISA/wsO5egSG74Msx+01xwaYjDFTDTUawhQ==",
+      "path": "dotnetprojects.wpftoolkit.datavisualization/6.1.94",
+      "hashPath": "dotnetprojects.wpftoolkit.datavisualization.6.1.94.nupkg.sha512"
+    },
+    "DotNetProjects.WpfToolkit.Input/6.1.94": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0YcVgMwcytYzhGeIlOTs/5cmbobEa5AdL3vGONiqcScDTXwn5HL7tzIiHAsnPXuy9h+rOFtxuvod2jiRXC6tgQ==",
+      "path": "dotnetprojects.wpftoolkit.input/6.1.94",
+      "hashPath": "dotnetprojects.wpftoolkit.input.6.1.94.nupkg.sha512"
     },
     "FastReport.Compat/2024.2.20": {
       "type": "package",

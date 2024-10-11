@@ -78,6 +78,30 @@
           "lib/netstandard2.0/DateTimeRange.dll": {}
         }
       },
+      "DotNetProjects.WpfToolkit.DataVisualization/6.1.94": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/DotNetProjects.DataVisualization.Toolkit.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/DotNetProjects.DataVisualization.Toolkit.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "DotNetProjects.WpfToolkit.Input/6.1.94": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/DotNetProjects.Input.Toolkit.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/DotNetProjects.Input.Toolkit.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "FastReport.Compat/2024.2.20": {
         "type": "package",
         "dependencies": {
@@ -1709,6 +1733,34 @@
         "daterange.1.0.2.nupkg.sha512",
         "daterange.nuspec",
         "lib/netstandard2.0/DateTimeRange.dll"
+      ]
+    },
+    "DotNetProjects.WpfToolkit.DataVisualization/6.1.94": {
+      "sha512": "5xmRUH+/F3zRxcI8b93W9OUvOUKXpcHShj7jGJdpBAgQTNPEeMLISA/wsO5egSG74Msx+01xwaYjDFTDTUawhQ==",
+      "type": "package",
+      "path": "dotnetprojects.wpftoolkit.datavisualization/6.1.94",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetprojects.wpftoolkit.datavisualization.6.1.94.nupkg.sha512",
+        "dotnetprojects.wpftoolkit.datavisualization.nuspec",
+        "lib/net40/DotNetProjects.DataVisualization.Toolkit.dll",
+        "lib/net5.0-windows7.0/DotNetProjects.DataVisualization.Toolkit.dll",
+        "lib/net6.0-windows7.0/DotNetProjects.DataVisualization.Toolkit.dll"
+      ]
+    },
+    "DotNetProjects.WpfToolkit.Input/6.1.94": {
+      "sha512": "0YcVgMwcytYzhGeIlOTs/5cmbobEa5AdL3vGONiqcScDTXwn5HL7tzIiHAsnPXuy9h+rOFtxuvod2jiRXC6tgQ==",
+      "type": "package",
+      "path": "dotnetprojects.wpftoolkit.input/6.1.94",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetprojects.wpftoolkit.input.6.1.94.nupkg.sha512",
+        "dotnetprojects.wpftoolkit.input.nuspec",
+        "lib/net40/DotNetProjects.Input.Toolkit.dll",
+        "lib/net5.0-windows7.0/DotNetProjects.Input.Toolkit.dll",
+        "lib/net6.0-windows7.0/DotNetProjects.Input.Toolkit.dll"
       ]
     },
     "FastReport.Compat/2024.2.20": {
@@ -4366,6 +4418,8 @@
       "BlazorDateRangePicker >= 5.3.0",
       "Chart.js >= 3.7.1",
       "DateRange >= 1.0.2",
+      "DotNetProjects.WpfToolkit.DataVisualization >= 6.1.94",
+      "DotNetProjects.WpfToolkit.Input >= 6.1.94",
       "FastReport.DataVisualization >= 2024.2.20",
       "FontAwesome >= 4.7.0",
       "FontAwesome.Sharp >= 6.6.0",
@@ -4443,6 +4497,14 @@
           "DateRange": {
             "target": "Package",
             "version": "[1.0.2, )"
+          },
+          "DotNetProjects.WpfToolkit.DataVisualization": {
+            "target": "Package",
+            "version": "[6.1.94, )"
+          },
+          "DotNetProjects.WpfToolkit.Input": {
+            "target": "Package",
+            "version": "[6.1.94, )"
           },
           "FastReport.DataVisualization": {
             "target": "Package",

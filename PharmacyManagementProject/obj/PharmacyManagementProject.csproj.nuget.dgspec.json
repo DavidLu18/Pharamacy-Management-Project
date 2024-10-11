@@ -62,6 +62,14 @@
               "target": "Package",
               "version": "[1.0.2, )"
             },
+            "DotNetProjects.WpfToolkit.DataVisualization": {
+              "target": "Package",
+              "version": "[6.1.94, )"
+            },
+            "DotNetProjects.WpfToolkit.Input": {
+              "target": "Package",
+              "version": "[6.1.94, )"
+            },
             "FastReport.DataVisualization": {
               "target": "Package",
               "version": "[2024.2.20, )"

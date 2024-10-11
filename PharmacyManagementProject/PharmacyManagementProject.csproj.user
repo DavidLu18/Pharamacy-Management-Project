@@ -4,11 +4,23 @@
     <Compile Update="Admin.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="AdminUC\UC_AddUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="AdminUC\UC_Dashboard.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pharmacist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RJcontrol\RJComboBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="RJcontrol\RJTextBox.cs">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="RJcontrol\SpecialButtrons.cs">
       <SubType>Component</SubType>
